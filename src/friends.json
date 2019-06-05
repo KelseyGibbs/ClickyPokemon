@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
+  },
+  {
+    "id": 2,
+    "name": "Charmander",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
+  },
+  {
+    "id": 3,
+    "name": "Squirtle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
+  },
+  {
+    "id": 4,
+    "name": "Pikachu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
+  },
+  {
+    "id": 5,
+    "name": "Clefairy",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png"
+  },
+  {
+    "id": 6,
+    "name": "Vulpix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png"
+  },
+  {
+    "id": 7,
+    "name": "Jigglypuff",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png"
+  },
+  {
+    "id": 8,
+    "name": "Oddish",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/043.png",
+    "occupation": "Ladies Man",
+    "location": "Aron City"
+  },
+  {
+    "id": 9,
+    "name": "Meowth",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png"
+  },
+  {
+    "id": 10,
+    "name": "Psyduck",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png"
+  },
+  {
+    "id": 11,
+    "name": "Arcanine",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/059.png"
+  },
+  {
+    "id": 12,
+    "name": "Machop",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png"
+  }
+]
