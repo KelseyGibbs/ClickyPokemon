@@ -3,7 +3,6 @@ import "./style.css";
 
 function FriendCard(props) {
   return (
-  <main id="wrapper2">
     <div className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
@@ -19,7 +18,6 @@ function FriendCard(props) {
         𝘅
       </span>
     </div>
-  </main>
   );
 }
 
