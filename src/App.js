@@ -3,11 +3,14 @@ import Wrapper from "./components/Wrapper";
 import FriendCard from "./components/FriendCard";
 import Nav from "./components/Nav";
 import friends from "./friends.json";
+import Body from "./components/Body";
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    friends
+    friends,
+    topscore: 0,
+    currentscore: 0
   };
 
   removeFriend = id => {
@@ -21,15 +24,21 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+      <Nav
+      topscore={this.state.topscore}
+      currentscore={this.state.currentscore}
+      />
+      <Body>
         {this.state.friends.map(friend => (
           <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
+          removeFriend={this.removeFriend}
+          id={friend.id}
+          key={friend.id}
+          name={friend.name}
+          image={friend.image}
           />
-        ))}
+          ))}
+        </Body>
       </Wrapper>
     );
   }
