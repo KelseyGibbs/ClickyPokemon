@@ -3,10 +3,9 @@ import './Nav.css';
 
 function Nav(props) {
     return (
-    <nav class="navbar navbar-light bg-light">
-     <h2 class="nav-item" href="#">Pokemon Clicky Game</h2>
-      <h3 class="nav-item">Current Score: {props.currentscore}</h3>
-      <h3 class="nav-item">Top Score: {props.topscore}</h3>
+    <nav className="navbar navbar-light bg-light">
+     <h2 className="nav-item" href="#">Pokemon Clicky Game</h2>
+      <h3 className="nav-item">Top Score: {props.topscore} Current Score: {props.currentscore}</h3>
     </nav>
     );
 }
